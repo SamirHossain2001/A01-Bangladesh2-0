@@ -77,3 +77,40 @@ nav{
       font-weight: bold;
       padding: 16px 0 24px;
 }
+
+/*Section-piller 2nd page*/
+.section-pillers{
+    padding: 80px 0;
+}
+
+.section-piller-title{
+    padding: 0 0 32px 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1)
+}
+
+.section-piller-containers{
+    display: flex;
+    gap:24px;
+}
+
+.piller-item{
+    width: 25%;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.piller-title{
+    padding: 24px 0 12px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.piller-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
