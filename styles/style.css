@@ -17,6 +17,14 @@ header, main{
     padding: 0 160px;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
 /*Shared style*/
 .btn-primary{
     font-size: 18px;
@@ -113,4 +121,91 @@ nav{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
     line-height: 24px;
+}
+
+/*section-vision page 3*/
+
+.section-vision-title{
+    padding: 0 0 24px 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1)
+}
+
+.section-vision-desc{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+
+.section-vision-container{
+    display: flex;
+    padding: 32px 0px;
+    gap: 24px;
+}
+
+.vision-item{
+    padding: 32px;
+    width: 33%;
+    border-radius: 16px;
+}
+
+.vision-item-1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.vision-item-2{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.vision-item-3{
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.vision-title{
+    padding: 24px 0 12px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.vision-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    padding: 0 0 24px 0;
+}
+
+.vision-span{
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.vision-span-1{
+    background-color: #5490F5;
+}
+
+.vision-span-1:hover{
+    background-color: #2e4c80;
+}
+
+
+.vision-span-2{
+    background-color: #09A15C;
+}
+
+.vision-span-2:hover{
+    background-color: #1d5e40;
+}
+
+.vision-span-3{
+    background-color: #FFC239;
+}
+
+.vision-span-3:hover{
+    background-color: #91722a;
 }
