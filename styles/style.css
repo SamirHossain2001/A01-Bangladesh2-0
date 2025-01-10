@@ -1,3 +1,79 @@
-h1 {
-    font-size: 100px;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*font*/
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+header, main{
+    background-color: #F5F5F5;
+    padding: 0 160px;
+}
+
+/*Shared style*/
+.btn-primary{
+    font-size: 18px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 17px;
+    background-color: #006A50;
+    padding: 17px 34px;
+    border: none;
+}
+
+/*nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0 44px 0;
+}
+
+.nav-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.nav-button{
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    font-family: "Fira Sans", serif;
+}
+
+/*section-banner*/
+.section-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    width: 1280;
+    height: 560px;
+    padding: 80px 100px;
+
+}
+
+.section-banner .first-title{
+     font-size: 24px;
+     font-weight: 500;
+     color: rgba(14, 14, 14, 0.5);
+}
+
+.section-banner .main-title{
+      font-size: 56px;
+      font-weight: bold;
+      padding: 16px 0 24px;
 }
