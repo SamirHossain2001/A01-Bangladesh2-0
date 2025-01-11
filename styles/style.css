@@ -404,8 +404,12 @@ nav{
     border-radius: 16px;
 }
 
-.donate-coupon:hover{
+.donate-coupon-2{
     background-color: rgba(198, 228, 214, 1);
+}
+
+.donate-coupon:hover{
+    background-color: rgb(118, 216, 170);
 }
 
 .donate-input{
