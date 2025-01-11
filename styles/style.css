@@ -186,6 +186,8 @@ nav{
 }
 
 .vision-span{
+    /* display: block;
+    width: 122px; */
     color: white;
     padding: 11px 20px;
     border-radius: 8px;
@@ -225,6 +227,7 @@ nav{
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: 24px 25px;
+    border-radius: 16px;
 }
 .section-quote-description{
     font-size: 16px;
@@ -303,4 +306,195 @@ nav{
     font-size: 16px;
     font-weight: 600;
     color: #0E0E0E;
+}
+
+/*Recent news section-news*/
+
+.section-news-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section-news-desc{
+    padding: 24px 0 32px 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.individual-news{
+    display: flex;
+    padding: 48px;
+    border-radius: 24px;
+    background-color: white;
+    gap: 32px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.main-image-news{
+    border-radius: 24px;
+}
+
+.short-news > h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+
+.short-news > img{
+    padding: 12px 0 0 0;
+}
+
+.short-news > p{
+    padding: 12px 0 0 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.short-news > p > time > span{
+    padding-right: 12px;
+} 
+.span-btn{
+    padding: 32px 0 0 0;
+}
+
+.rotate-news{
+    flex-direction: row-reverse;
+}
+
+/*section-donate*/
+
+.section-donate{
+    padding: 80px 0;
+}
+
+.section-donate-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    padding-bottom: 24px;
+}
+
+.section-donate-desc{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    padding: 0 88px 32px 88px;
+}
+
+.donate-coupons{
+    display: flex;
+    gap: 24px;
+    padding: 0 104px;
+}
+
+.donate-coupon{
+    background-color: white;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px;
+    width: 25%;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.donate-coupon:hover{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.donate-input{
+     padding: 32px 124px;
+}
+.section-donate input[type="text"]{
+    display: block;
+    width: 90%;
+    background-color: white;
+    padding: 20px 40px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    border: none;
+    text-align: center;
+}
+
+.donate-btn{
+    text-align: center;
+}
+
+/*section-subscribe*/
+
+main{
+    padding-bottom: 80px;
+}
+.section-subscribe{
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+}
+
+.section-subscribe div > h2{
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+}
+
+.section-subscribe div > p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+    line-height: 24px;
+}
+
+.subscribe-desc{
+    padding: 16px 0 24px 0;
+}
+
+.subscribe-email{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-input-email{
+    width: 520px;
+    height: 19px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    padding: 18px 40px;
+    font-size: 16px;
+}
+
+.sub-input-btn{
+    width: 150px;
+    height: 56px;
+    border-radius: 0 8px 8px 0;
+}
+
+.sub-ending{
+    padding: 24px 0 80px 0;
+}
+
+/*footer*/
+
+footer{
+    text-align: center;
+}
+
+footer > h2{
+    padding: 50px 0 32px 0;
+}
+
+footer > div{
+    padding: 32px 0 50px 0;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
 }
