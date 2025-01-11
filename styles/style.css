@@ -37,6 +37,10 @@ a:visited{
     border: none;
 }
 
+.btn-primary:hover{
+    background-color: #00B87A;
+}
+
 /*nav*/
 nav{
     display: flex;
@@ -58,6 +62,11 @@ nav{
     border-radius: 8px;
     border: 1px solid #006A50;
     font-family: "Fira Sans", serif;
+}
+
+.nav-button:hover{
+    background-color: #006A50;
+    color: #FFFFFF;
 }
 
 /*section-banner*/
@@ -193,7 +202,6 @@ nav{
     background-color: #2e4c80;
 }
 
-
 .vision-span-2{
     background-color: #09A15C;
 }
@@ -208,4 +216,77 @@ nav{
 
 .vision-span-3:hover{
     background-color: #91722a;
+}
+
+/*section-quote Quote*/
+.section-quote{
+    background-color: white;
+    padding: 48px 24px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+}
+.section-quote-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;
+}
+.section-quote-name{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 12px 0 4px 0;
+}
+
+/*section-opinion*/
+
+.section-opinion{
+    padding: 80px 0;
+}
+.opinion-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.opinion-table tr{
+    height: 92px;
+    text-align: left;
+}
+
+.opinion-table .large-row{
+    width: 77%;
+}
+
+.opinion-table .small-row{
+    width: 23%;
+}
+.opinion-table td, th{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.opinion-table > thead > tr{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.opinion-table > thead > tr > th{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+    padding: 24px;
+}
+
+.opinion-table > tbody > tr > td{
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+
+.option-dropdown{
+    padding: 10px 14px;
+    border-radius: 4px;
+    background-color: rgba(198, 228, 214, 1);
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
 }
