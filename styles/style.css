@@ -243,9 +243,23 @@ nav{
 .section-opinion{
     padding: 80px 0;
 }
+.section-opinion-title{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.section-opinion > div{
+    padding: 32px;
+    background-color: white;
+    border-radius: 16px;
+}
+
 .opinion-table{
     border-collapse: collapse;
     width: 100%;
+    padding: 32px;
+    background-color: white;
 }
 
 .opinion-table tr{
